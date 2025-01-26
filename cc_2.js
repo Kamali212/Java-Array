@@ -13,5 +13,15 @@ let average = scores.reduce((acc, scores) => acc + scores, 0) / scores.length; /
 console.log("Update Scores", scores); // Print updated scores
 console.log("Average Scores", average) // Print average score
 
+// Task 3 Working with Objects
+let employee = {
+    name: "Mandalorian",
+    age: 32,
+    department: "Security",
+    isActive: true,
+}; // Declare object
+employee.deparment = "Guardians" ; // Update department propety 
+employee.position = "Nighttime Guard"; // Add new property 'position' to object
+console.log(employee); // Log updated object to console
 
 

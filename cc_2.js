@@ -20,8 +20,10 @@ let employee = {
     department: "Security",
     isActive: true,
 }; // Declare object
+console.log(employee); // Log object to console
 employee.department = "Guardians" ; // Update department propety 
 employee.position = "Nighttime Guard"; // Add new property 'position' to object
 console.log(employee); // Log updated object to console
 
+// Task 4 Array of Object 
 

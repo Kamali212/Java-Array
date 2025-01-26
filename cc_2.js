@@ -20,7 +20,7 @@ let employee = {
     department: "Security",
     isActive: true,
 }; // Declare object
-employee.deparment = "Guardians" ; // Update department propety 
+employee.department = "Guardians" ; // Update department propety 
 employee.position = "Nighttime Guard"; // Add new property 'position' to object
 console.log(employee); // Log updated object to console
 

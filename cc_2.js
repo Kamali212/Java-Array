@@ -31,7 +31,16 @@ let customer = [
     {name: "Chewbacca", email: "Chewiebacca@gmail.com", purchaseAmount: 22010},
     {name: "Boba Fett", email: "Bobathefett@gmail.com", purchaseAmount: 30750}
 ]; // Array of objects as customers
-console.log(customer); // Log array to console
 customer.push({name: "Leia Organa", email: "Princessleia@gmail.com", purchaseAmount: 49221}); // Add customer to array
 console.log(customer); // Log updated array to console
 
+// Task 5 Object Methods
+
+let order = {
+    orderid: 75,
+    customerName: "Chewbacca",
+    amount: 60,
+}; // Array of object as order
+console.log(order); // Log order to console
+order.tax = order.amount * 0.10; // Caculate tax based on order.amount
+console.log(order); // Log update object array with tax

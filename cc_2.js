@@ -26,4 +26,12 @@ employee.position = "Nighttime Guard"; // Add new property 'position' to object
 console.log(employee); // Log updated object to console
 
 // Task 4 Array of Object 
+let customer = [
+    {name: "Han Solo", email: "Hansolo@gmail.com", purchaseAmount: 30200},
+    {name: "Chewbacca", email: "Chewiebacca@gmail.com", purchaseAmount: 22010},
+    {name: "Boba Fett", email: "Bobathefett@gmail.com", purchaseAmount: 30750}
+]; // Array of objects as customers
+console.log(customer); // Log array to console
+customer.push({name: "Leia Organa", email: "Princessleia@gmail.com", purchaseAmount: 49221}); // Add customer to array
+console.log(customer); // Log updated array to console
 

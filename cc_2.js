@@ -40,7 +40,7 @@ let order = {
     orderid: 75,
     customerName: "Chewbacca",
     amount: 60,
-}; // Array of object as order
+}; // Declare object
 console.log(order); // Log order to console
-order.tax = order.amount * 0.10; // Caculate tax based on order.amount
-console.log(order); // Log update object array with tax
+order.tax = order.amount * 0.10; // Caculate tax based on order.amount and add to object
+console.log(order); // Log object with tax
